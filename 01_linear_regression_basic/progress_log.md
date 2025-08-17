@@ -126,6 +126,13 @@
   RMSE ≈ 0.291  
   R² ≈ 0.973
 
+## 1.18 – Save trained model
+- **Task**: Persist trained linear regression model for reuse.
+- **Code**:
+  ```python
+  import joblib
+  joblib.dump(lin_reg, "../models/linear_regression_model.pkl")
+
 ---
 
 ## Git Workflow
